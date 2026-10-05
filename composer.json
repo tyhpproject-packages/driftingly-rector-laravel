@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/driftingly-rector-laravel",
+    "description": "Tyhp type definitions for driftingly/rector-laravel 2.6.2.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "2.6.2",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/driftingly-rector-laravel-impl": "~2.6.2.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/driftingly-rector-laravel-impl"
+        }
+    }
+}
